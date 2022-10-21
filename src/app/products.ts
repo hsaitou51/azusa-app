@@ -2,7 +2,7 @@ export const products = [
   {
     coverImage: './assets/img/phone-cover.jpg',
     name: 'Phone XL',
-    price: 799,
+    price: 899,
     description:'A large phone with one of the best screens',
     heding1: 'Heading 1',
     heding2: 'Heading 2',
@@ -15,7 +15,7 @@ export const products = [
   {
     coverImage: './assets/img/phone-cover.jpg',
     name: 'Phone Mini',
-    price: 699,
+    price: 9999,
     description:'A great phone with one of the best cameras',
     heding1: 'Heading 1',
     heding2: 'Heading 2',
@@ -27,7 +27,7 @@ export const products = [
   {
     coverImage: './assets/img/phone-cover.jpg',
     name: 'Phone Standard',
-    price: 299,
+    price: 2223,
     description:'',
     heding1: 'Heading 1',
     heding2: 'Heading 2',
@@ -39,7 +39,7 @@ export const products = [
   {
     coverImage: './assets/img/phone-cover.jpg',
     name: 'Phone Special',
-    price: 999,
+    price: 99,
     description:'A great phone with one of the best cameras',
     heding1: 'Heading 1',
     heding2: 'Heading 2',
