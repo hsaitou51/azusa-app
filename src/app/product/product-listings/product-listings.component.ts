@@ -12,17 +12,17 @@ export class ProductListingsComponent implements OnInit {
 
   constructor(private productService: ProductService) { }
 
-  ngOnInit() {
-
+  ngOnInit(): void {
     const productsObservable =this.productService.getProducts()
     productsObservable.subscribe(
-      (data) => {
-        this.products = data
-        console.log('次のデータが出力されました：'+ data)
-      },
-      (err) => {
-        console.error('次のエラーが発生しました:'+ err)
-      }
-    )
+        (data: any) => {
+          this.products = data
+        },
+        (err: any) => {
+          console.error('次のエラーが発生しました:' + err)
+        }
+      )
   }
 }
+
+
